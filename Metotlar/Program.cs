@@ -2,6 +2,7 @@
 
 using Metotlar;
 
+
 Urun urun1 = new Urun();
 urun1.Adi = "Elma";
 urun1.Fiyati = 15;
@@ -31,6 +32,7 @@ SepetManager sepetManager = new SepetManager();
 sepetManager.Ekle(urun1);
 sepetManager.Ekle(urun2);
 
+Console.WriteLine();
 sepetManager.Ekle2("Armut","Yeşil Armut",12, 10);
 sepetManager.Ekle2("Elma", "Yeşil Elma", 12, 9);
 sepetManager.Ekle2("Karpuz","Diyarbakır Karpuzu", 12, 8);

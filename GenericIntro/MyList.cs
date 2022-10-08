@@ -8,7 +8,7 @@ namespace GenericIntro
 {
     internal class MyList<T>
     {
-        
+
         T[] items;
         //constructor
         public MyList()
@@ -19,7 +19,7 @@ namespace GenericIntro
         {
             T[] tempArray = items;
             items = new T[items.Length];
-            for (int i = 0; i <tempArray.Length; i++)
+            for (int i = 0; i < tempArray.Length; i++)
             {
                 items[i] = tempArray[i];
             }

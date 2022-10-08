@@ -11,7 +11,8 @@ string[] kurslar = new string[]
   "Programlamaya Başlangıç için Temel Kurs", 
   "java",
   "Python",
-  "C++"
+  "C++",
+
 
 };
 
